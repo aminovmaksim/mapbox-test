@@ -49,7 +49,7 @@
     mapboxgl.accessToken = 'pk.eyJ1IjoiYW1pbm92bWFrc2ltIiwiYSI6ImNsMnVsdWJ2MTAzOTUzY21wYmNiMTY0YjAifQ.Ix2FLFm4DYhPx7P7JLfm1A';
 
     const xmlHttp = new XMLHttpRequest()
-    xmlHttp.open("GET", "http://localhost/api/clubs", false)
+    xmlHttp.open("GET", "http://devian-server001.ru/api/clubs", false)
     xmlHttp.send()
     let clubs = JSON.parse(xmlHttp.responseText)
 
